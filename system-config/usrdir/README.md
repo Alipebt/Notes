@@ -2,6 +2,11 @@
 ## 其中.config文件夹路径为 ~/.config
 
 ### ./
+`.zshrc`中包含了对`zim`框架的配置
+若出现`warning: completion was already initialized before completion module.` 
+可尝试删掉`/etc/zsh/zshrc`文件
+
+
 `.zshrc` 配置类fzf相关内容 
 
 fzf 快速搜索文件/目录
@@ -11,4 +16,8 @@ fzf 快速搜索文件/目录
 
 
 ### .config
-`kglobalshortcutsrc`为KDE的快捷键配置
+注：原名为`kglobalshortcutsrc`，为KDE桌面快捷键配置
+
+`kglobalshortcutsrc-like-hyprland`类hyprland的快捷键
+
+`kglobalshortcutsrc`原版快捷键
